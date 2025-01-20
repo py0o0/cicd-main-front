@@ -14,7 +14,7 @@ jobs:
     steps:
       # 체크아웃 -> 깃허브의 저장소로부터 소스 체크아웃
       - name: Checkout repository resource
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
       # 환경변수 동적 생성 -> .env
       - name: .env 환경 변수 동적 생성
         run: |
